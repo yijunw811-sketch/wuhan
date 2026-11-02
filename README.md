@@ -1,5 +1,11 @@
 # 武汉地区蓝绿空间研究：当前为用户研究范围版
 
+## 客户可用的GIS整合交付
+
+- **[QGIS自包含工程：下载后直接打开](delivery/Wuhan_Study_QGIS.qgz)**，86图层/表、14主题、14打印布局；数据内嵌，不需要单独数据目录。
+- **[ArcMap 10.5整合包](delivery/Wuhan_Study_ArcMap105.zip)**，真实GDB、科学栅格、已配色视图和本机入口。数据可直接导入；真正MXD/MPK需要在本机ArcMap10.5初始化一次，云端未生成或验证。
+- [客户交付说明与检查记录](delivery/README.md)
+
 **当前成果已按新上传的研究边界重新计算，不再以整幅TIFF矩形作为研究范围。**
 
 - **[下载研究范围分析与真实GDB包](study_area/wuhan_study_analysis.zip)**：分类、蓝绿提取、三尺度精确网格面积、Moran/LISA/Gi*、Shapefile/GPKG/GDB、43组地图。

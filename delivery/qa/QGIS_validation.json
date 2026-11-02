@@ -1,0 +1,547 @@
+{
+  "QGIS": "3.40.6-Bratislava",
+  "project": "Wuhan_Study.qgz",
+  "layer_count": 86,
+  "layouts": 14,
+  "themes": [
+    "01 土地利用分类",
+    "02 蓝色空间分布",
+    "03 蓝色空间核密度",
+    "04 绿色空间分布",
+    "05 绿色空间核密度",
+    "06 蓝绿整体分布",
+    "07 蓝绿整体核密度",
+    "08 蓝色空间LISA",
+    "09 绿色空间（含耕地）LISA",
+    "10 蓝绿整体（含耕地、湿地）LISA",
+    "11 蓝色空间Gi*",
+    "12 绿色空间（含耕地）Gi*",
+    "13 蓝绿整体（含耕地、湿地）Gi*",
+    "14 湿地分布"
+  ],
+  "embedded_attachments": 49,
+  "external_data_dependencies": 0,
+  "moved_single_file_reopen": "PASS",
+  "all_layers_valid": true,
+  "native_layout_pdf_export": "PASS",
+  "canvas_render": "PASS",
+  "project_bytes": 62769860,
+  "layers": [
+    {
+      "name": "1000m完整规则网格（含范围外）",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "2000m完整规则网格（含范围外）",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "500m完整规则网格（含范围外）",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "全局Moran统计",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "分类面积",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "湿地分布",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝色空间 Gi*｜1000m",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝色空间 Gi*｜2000m",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝色空间 Gi*｜500m",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝色空间 LISA｜1000m",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝色空间 LISA｜2000m",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝色空间 LISA｜500m",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "字段中文对照",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "土地利用分类（内部1–8类）",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "尺度与边缘敏感性",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "绿色空间（含耕地） Gi*｜1000m",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "绿色空间（含耕地） Gi*｜2000m",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "绿色空间（含耕地） Gi*｜500m",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "绿色空间（含耕地） LISA｜1000m",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "绿色空间（含耕地） LISA｜2000m",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "绿色空间（含耕地） LISA｜500m",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "湿地原生网格占比栅格｜1000m",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝色空间网格面积占比｜1000m（非核密度）",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝色空间网格面积占比｜2000m（非核密度）",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "湿地原生网格占比栅格｜2000m",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "湿地原生网格占比栅格｜500m",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝色空间网格面积占比｜500m（非核密度）",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝色空间原生网格占比栅格｜1000m",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝色空间原生网格占比栅格｜2000m",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝色空间原生网格占比栅格｜500m",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝绿整体（含耕地、湿地） Gi*｜1000m",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝绿整体（含耕地、湿地） Gi*｜2000m",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝绿整体（含耕地、湿地） Gi*｜500m",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝绿整体（含耕地、湿地） LISA｜1000m",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝绿整体（含耕地、湿地） LISA｜2000m",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝绿整体（含耕地、湿地） LISA｜500m",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "分类标准对应（代码为文本）",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "范围外白色遮罩（仅显示辅助）",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "绿色空间（含耕地）网格面积占比｜1000m（非核密度）",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "绿色空间（含耕地）网格面积占比｜2000m（非核密度）",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "绿色空间（含耕地）网格面积占比｜500m（非核密度）",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "绿色空间（含耕地）原生网格占比栅格｜1000m",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "绿色空间（含耕地）原生网格占比栅格｜2000m",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "绿色空间（含耕地）原生网格占比栅格｜500m",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝绿整体（含耕地、湿地）网格面积占比｜1000m（非核密度）",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝绿整体（含耕地、湿地）网格面积占比｜2000m（非核密度）",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝绿整体（含耕地、湿地）网格面积占比｜500m（非核密度）",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝绿类型（保留水体/耕地/林草/湿地）",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝绿整体（含耕地、湿地）原生网格占比栅格｜1000m",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝绿整体（含耕地、湿地）原生网格占比栅格｜2000m",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝绿整体（含耕地、湿地）原生网格占比栅格｜500m",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝绿整体（含耕地、湿地）核密度｜h=1000m｜边缘校正｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝绿整体（含耕地、湿地）核密度｜h=1000m｜原始截断｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝绿整体（含耕地、湿地）核密度｜h=2000m｜原始截断｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝绿整体（含耕地、湿地）核密度｜h=2000m｜边缘校正｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝绿整体（含耕地、湿地）核密度｜h=500m｜边缘校正｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝绿整体（含耕地、湿地）核密度｜h=500m｜原始截断｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝绿整体（含耕地、湿地）分布",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "研究范围轮廓（用户提供）",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "绿色空间（含耕地）核密度｜h=1000m｜边缘校正｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "绿色空间（含耕地）核密度｜h=1000m｜原始截断｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "绿色空间（含耕地）核密度｜h=2000m｜原始截断｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "绿色空间（含耕地）核密度｜h=2000m｜边缘校正｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "绿色空间（含耕地）核密度｜h=500m｜原始截断｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "绿色空间（含耕地）核密度｜h=500m｜边缘校正｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "绿色空间（含耕地）分布",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝绿面积与比例",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝色空间核密度｜h=1000m｜原始截断｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝色空间核密度｜h=1000m｜边缘校正｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝色空间核密度｜h=2000m｜边缘校正｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝色空间核密度｜h=2000m｜原始截断｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝色空间核密度｜h=500m｜原始截断｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝色空间核密度｜h=500m｜边缘校正｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "核密度面统计",
+      "provider": "ogr",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "蓝色空间分布",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "湿地核密度｜h=1000m｜边缘校正｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "湿地核密度｜h=1000m｜原始截断｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "湿地核密度｜h=2000m｜原始截断｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "湿地核密度｜h=2000m｜边缘校正｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "湿地核密度｜h=500m｜边缘校正｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "湿地核密度｜h=500m｜原始截断｜ha/km²",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "kde_kernel_exposure_h1000",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "kde_kernel_exposure_h2000",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "kde_kernel_exposure_h500",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "kde_study_coverage_90m",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    },
+    {
+      "name": "land_study_fraction",
+      "provider": "gdal",
+      "valid": true,
+      "source_resolved_in_temp": true
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "layouts": [
+    {
+      "layout": "01 土地利用分类",
+      "PDF_export": "PASS",
+      "scale_bar": "2 x 5 km"
+    },
+    {
+      "layout": "02 蓝色空间分布",
+      "PDF_export": "PASS",
+      "scale_bar": "2 x 5 km"
+    },
+    {
+      "layout": "03 蓝色空间核密度",
+      "PDF_export": "PASS",
+      "scale_bar": "2 x 5 km"
+    },
+    {
+      "layout": "04 绿色空间分布",
+      "PDF_export": "PASS",
+      "scale_bar": "2 x 5 km"
+    },
+    {
+      "layout": "05 绿色空间核密度",
+      "PDF_export": "PASS",
+      "scale_bar": "2 x 5 km"
+    },
+    {
+      "layout": "06 蓝绿整体分布",
+      "PDF_export": "PASS",
+      "scale_bar": "2 x 5 km"
+    },
+    {
+      "layout": "07 蓝绿整体核密度",
+      "PDF_export": "PASS",
+      "scale_bar": "2 x 5 km"
+    },
+    {
+      "layout": "08 蓝色空间LISA",
+      "PDF_export": "PASS",
+      "scale_bar": "2 x 5 km"
+    },
+    {
+      "layout": "09 绿色空间（含耕地）LISA",
+      "PDF_export": "PASS",
+      "scale_bar": "2 x 5 km"
+    },
+    {
+      "layout": "10 蓝绿整体（含耕地、湿地）LISA",
+      "PDF_export": "PASS",
+      "scale_bar": "2 x 5 km"
+    },
+    {
+      "layout": "11 蓝色空间Gi*",
+      "PDF_export": "PASS",
+      "scale_bar": "2 x 5 km"
+    },
+    {
+      "layout": "12 绿色空间（含耕地）Gi*",
+      "PDF_export": "PASS",
+      "scale_bar": "2 x 5 km"
+    },
+    {
+      "layout": "13 蓝绿整体（含耕地、湿地）Gi*",
+      "PDF_export": "PASS",
+      "scale_bar": "2 x 5 km"
+    },
+    {
+      "layout": "14 湿地分布",
+      "PDF_export": "PASS",
+      "scale_bar": "2 x 5 km"
+    }
+  ],
+  "default_visible_layers": [
+    "研究范围轮廓（用户提供）",
+    "范围外白色遮罩（仅显示辅助）",
+    "蓝绿整体（含耕地、湿地）核密度｜h=1000m｜边缘校正｜ha/km²"
+  ],
+  "all_layers_valid": true
+}

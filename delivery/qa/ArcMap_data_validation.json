@@ -1,0 +1,277 @@
+{
+  "format": "ArcMap 10.5 compatible FileGDB + GeoTIFF, real data",
+  "mxd_in_cloud": false,
+  "lyr_in_cloud": false,
+  "native_desktop_execution": "NOT RUN: ArcGIS unavailable",
+  "ready_colored_views": 43,
+  "rasters": [
+    {
+      "name": "kde_kde_blue_green_h1000_edge_corrected.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kde_blue_green_h1000_raw.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kde_blue_green_h2000_edge_corrected.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kde_blue_green_h2000_raw.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kde_blue_green_h500_edge_corrected.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kde_blue_green_h500_raw.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kde_blue_h1000_edge_corrected.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kde_blue_h1000_raw.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kde_blue_h2000_edge_corrected.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kde_blue_h2000_raw.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kde_blue_h500_edge_corrected.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kde_blue_h500_raw.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kde_green_h1000_edge_corrected.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kde_green_h1000_raw.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kde_green_h2000_edge_corrected.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kde_green_h2000_raw.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kde_green_h500_edge_corrected.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kde_green_h500_raw.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kde_wetland_h1000_edge_corrected.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kde_wetland_h1000_raw.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kde_wetland_h2000_edge_corrected.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kde_wetland_h2000_raw.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kde_wetland_h500_edge_corrected.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kde_wetland_h500_raw.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kernel_exposure_h1000.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kernel_exposure_h2000.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_kernel_exposure_h500.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "kde_study_coverage_90m.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "land_blue_density_1000.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "land_blue_density_2000.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "land_blue_density_500.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "land_blue_green_density_1000.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "land_blue_green_density_2000.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "land_blue_green_density_500.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "land_blue_green_mask.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "land_blue_green_types.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "land_blue_mask.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "land_classification.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "land_green_density_1000.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "land_green_density_2000.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "land_green_density_500.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "land_green_mask.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "land_study_fraction.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "land_wetland_density_1000.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "land_wetland_density_2000.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "land_wetland_density_500.tif",
+      "source_bytes_unchanged": true
+    },
+    {
+      "name": "land_wetland_mask.tif",
+      "source_bytes_unchanged": true
+    }
+  ],
+  "geodatabase": [
+    {
+      "layer": "scope",
+      "rows": 1,
+      "reread": true
+    },
+    {
+      "layer": "grid_500_full",
+      "rows": 18765,
+      "reread": true
+    },
+    {
+      "layer": "grid_500_clip",
+      "rows": 13433,
+      "reread": true
+    },
+    {
+      "layer": "grid_1000_full",
+      "rows": 4760,
+      "reread": true
+    },
+    {
+      "layer": "grid_1000_clip",
+      "rows": 3454,
+      "reread": true
+    },
+    {
+      "layer": "grid_2000_full",
+      "rows": 1190,
+      "reread": true
+    },
+    {
+      "layer": "grid_2000_clip",
+      "rows": 906,
+      "reread": true
+    },
+    {
+      "layer": "valid_scope",
+      "rows": 1,
+      "reread": true
+    },
+    {
+      "layer": "repaired_features",
+      "rows": 2,
+      "reread": true
+    },
+    {
+      "layer": "class_areas",
+      "rows": 8,
+      "reread": true
+    },
+    {
+      "layer": "group_areas",
+      "rows": 4,
+      "reread": true
+    },
+    {
+      "layer": "global_moran",
+      "rows": 27,
+      "reread": true
+    },
+    {
+      "layer": "scale_comparison",
+      "rows": 27,
+      "reread": true
+    },
+    {
+      "layer": "field_dictionary",
+      "rows": 306,
+      "reread": true
+    },
+    {
+      "layer": "class_crosswalk",
+      "rows": 8,
+      "reread": true
+    }
+  ],
+  "independent_100_LISA_color_samples": "PASS",
+  "geoTIFF_all_blocks_read": "PASS",
+  "primary_data_changed": "Only metadata crosswalk ID fields converted to integer for joining; standard codes remain text; all scientific rasters byte-identical"
+}
