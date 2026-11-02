@@ -1,0 +1,357 @@
+{
+  "classification": {
+    "pixels": 20708352,
+    "unknown_pixels": 0,
+    "nodata_pixels": 0,
+    "class_area_m2": 4659379200.0,
+    "blue_green_union_m2": 2865106350.0,
+    "disjoint_group_sum_m2": 2865106350.0,
+    "no_cleaning": true,
+    "input_sha256": "3661457a1c456155ae48dcf7629e7a396eada6c1daebe65f6a54f233d78cd321"
+  },
+  "area_500": {
+    "raster_valid_m2": 4659379200.0,
+    "grid_valid_m2": 4659379200.0,
+    "absolute_error_m2": 0.0,
+    "tolerance_m2": 0.001,
+    "method": "separable sparse pixel-grid overlap; block rows 256",
+    "all_percent_0_100": true
+  },
+  "weights_500_main": {
+    "n": 18630,
+    "islands": 0,
+    "symmetric_binary": true,
+    "self_Moran": 0,
+    "self_Gistar": 1,
+    "order": "eligible dataframe order; GRID_ID exported",
+    "fdr_family": "indicator x scale x method x edge scenario",
+    "seed_local": "np.random.seed((seed+scale+local_index*1009)%2147483647) per unit",
+    "seed_global": "numpy default_rng(seed+scale)"
+  },
+  "grid_500_full": {
+    "reread": true,
+    "rows": 18765,
+    "unique_short_fields": true,
+    "crs": "EPSG:32649",
+    "numeric_roundtrip_tolerance": 1e-06
+  },
+  "grid_500_clip": {
+    "reread": true,
+    "rows": 18765,
+    "unique_short_fields": true,
+    "crs": "EPSG:32649",
+    "numeric_roundtrip_tolerance": 1e-06
+  },
+  "weights_500_edge_0": {
+    "n": 18765,
+    "islands": 0,
+    "symmetric_binary": true,
+    "self_Moran": 0,
+    "self_Gistar": 1,
+    "order": "eligible dataframe order; GRID_ID exported",
+    "fdr_family": "indicator x scale x method x edge scenario",
+    "seed_local": "np.random.seed((seed+scale+local_index*1009)%2147483647) per unit",
+    "seed_global": "numpy default_rng(seed+scale)"
+  },
+  "weights_500_edge_0.5": {
+    "n": 18630,
+    "islands": 0,
+    "symmetric_binary": true,
+    "self_Moran": 0,
+    "self_Gistar": 1,
+    "order": "eligible dataframe order; GRID_ID exported",
+    "fdr_family": "indicator x scale x method x edge scenario",
+    "seed_local": "np.random.seed((seed+scale+local_index*1009)%2147483647) per unit",
+    "seed_global": "numpy default_rng(seed+scale)"
+  },
+  "area_1000": {
+    "raster_valid_m2": 4659379200.0,
+    "grid_valid_m2": 4659379200.0,
+    "absolute_error_m2": 0.0,
+    "tolerance_m2": 0.001,
+    "method": "separable sparse pixel-grid overlap; block rows 256",
+    "all_percent_0_100": true
+  },
+  "weights_1000_main": {
+    "n": 4692,
+    "islands": 0,
+    "symmetric_binary": true,
+    "self_Moran": 0,
+    "self_Gistar": 1,
+    "order": "eligible dataframe order; GRID_ID exported",
+    "fdr_family": "indicator x scale x method x edge scenario",
+    "seed_local": "np.random.seed((seed+scale+local_index*1009)%2147483647) per unit",
+    "seed_global": "numpy default_rng(seed+scale)"
+  },
+  "grid_1000_full": {
+    "reread": true,
+    "rows": 4760,
+    "unique_short_fields": true,
+    "crs": "EPSG:32649",
+    "numeric_roundtrip_tolerance": 1e-06
+  },
+  "grid_1000_clip": {
+    "reread": true,
+    "rows": 4760,
+    "unique_short_fields": true,
+    "crs": "EPSG:32649",
+    "numeric_roundtrip_tolerance": 1e-06
+  },
+  "weights_1000_edge_0": {
+    "n": 4760,
+    "islands": 0,
+    "symmetric_binary": true,
+    "self_Moran": 0,
+    "self_Gistar": 1,
+    "order": "eligible dataframe order; GRID_ID exported",
+    "fdr_family": "indicator x scale x method x edge scenario",
+    "seed_local": "np.random.seed((seed+scale+local_index*1009)%2147483647) per unit",
+    "seed_global": "numpy default_rng(seed+scale)"
+  },
+  "weights_1000_edge_0.5": {
+    "n": 4623,
+    "islands": 0,
+    "symmetric_binary": true,
+    "self_Moran": 0,
+    "self_Gistar": 1,
+    "order": "eligible dataframe order; GRID_ID exported",
+    "fdr_family": "indicator x scale x method x edge scenario",
+    "seed_local": "np.random.seed((seed+scale+local_index*1009)%2147483647) per unit",
+    "seed_global": "numpy default_rng(seed+scale)"
+  },
+  "area_2000": {
+    "raster_valid_m2": 4659379200.0,
+    "grid_valid_m2": 4659379200.0,
+    "absolute_error_m2": 0.0,
+    "tolerance_m2": 0.001,
+    "method": "separable sparse pixel-grid overlap; block rows 256",
+    "all_percent_0_100": true
+  },
+  "weights_2000_main": {
+    "n": 1190,
+    "islands": 0,
+    "symmetric_binary": true,
+    "self_Moran": 0,
+    "self_Gistar": 1,
+    "order": "eligible dataframe order; GRID_ID exported",
+    "fdr_family": "indicator x scale x method x edge scenario",
+    "seed_local": "np.random.seed((seed+scale+local_index*1009)%2147483647) per unit",
+    "seed_global": "numpy default_rng(seed+scale)"
+  },
+  "grid_2000_full": {
+    "reread": true,
+    "rows": 1190,
+    "unique_short_fields": true,
+    "crs": "EPSG:32649",
+    "numeric_roundtrip_tolerance": 1e-06
+  },
+  "grid_2000_clip": {
+    "reread": true,
+    "rows": 1190,
+    "unique_short_fields": true,
+    "crs": "EPSG:32649",
+    "numeric_roundtrip_tolerance": 1e-06
+  },
+  "weights_2000_edge_0": {
+    "n": 1190,
+    "islands": 0,
+    "symmetric_binary": true,
+    "self_Moran": 0,
+    "self_Gistar": 1,
+    "order": "eligible dataframe order; GRID_ID exported",
+    "fdr_family": "indicator x scale x method x edge scenario",
+    "seed_local": "np.random.seed((seed+scale+local_index*1009)%2147483647) per unit",
+    "seed_global": "numpy default_rng(seed+scale)"
+  },
+  "weights_2000_edge_0.5": {
+    "n": 1189,
+    "islands": 0,
+    "symmetric_binary": true,
+    "self_Moran": 0,
+    "self_Gistar": 1,
+    "order": "eligible dataframe order; GRID_ID exported",
+    "fdr_family": "indicator x scale x method x edge scenario",
+    "seed_local": "np.random.seed((seed+scale+local_index*1009)%2147483647) per unit",
+    "seed_global": "numpy default_rng(seed+scale)"
+  },
+  "read_blue_green_density_2000.tif": {
+    "shape": [
+      34,
+      35
+    ],
+    "crs": "EPSG:32649",
+    "nodata": -9999.0,
+    "compression": "Compression.lzw",
+    "read_all_blocks": true
+  },
+  "read_classification.tif": {
+    "shape": [
+      4494,
+      4608
+    ],
+    "crs": "EPSG:32649",
+    "nodata": 0.0,
+    "compression": "Compression.lzw",
+    "read_all_blocks": true
+  },
+  "read_blue_green_types.tif": {
+    "shape": [
+      4494,
+      4608
+    ],
+    "crs": "EPSG:32649",
+    "nodata": 255.0,
+    "compression": "Compression.lzw",
+    "read_all_blocks": true
+  },
+  "read_blue_mask.tif": {
+    "shape": [
+      4494,
+      4608
+    ],
+    "crs": "EPSG:32649",
+    "nodata": 255.0,
+    "compression": "Compression.lzw",
+    "read_all_blocks": true
+  },
+  "read_blue_green_mask.tif": {
+    "shape": [
+      4494,
+      4608
+    ],
+    "crs": "EPSG:32649",
+    "nodata": 255.0,
+    "compression": "Compression.lzw",
+    "read_all_blocks": true
+  },
+  "read_blue_density_500.tif": {
+    "shape": [
+      135,
+      139
+    ],
+    "crs": "EPSG:32649",
+    "nodata": -9999.0,
+    "compression": "Compression.lzw",
+    "read_all_blocks": true
+  },
+  "read_wetland_density_1000.tif": {
+    "shape": [
+      68,
+      70
+    ],
+    "crs": "EPSG:32649",
+    "nodata": -9999.0,
+    "compression": "Compression.lzw",
+    "read_all_blocks": true
+  },
+  "read_wetland_mask.tif": {
+    "shape": [
+      4494,
+      4608
+    ],
+    "crs": "EPSG:32649",
+    "nodata": 255.0,
+    "compression": "Compression.lzw",
+    "read_all_blocks": true
+  },
+  "read_wetland_density_500.tif": {
+    "shape": [
+      135,
+      139
+    ],
+    "crs": "EPSG:32649",
+    "nodata": -9999.0,
+    "compression": "Compression.lzw",
+    "read_all_blocks": true
+  },
+  "read_green_mask.tif": {
+    "shape": [
+      4494,
+      4608
+    ],
+    "crs": "EPSG:32649",
+    "nodata": 255.0,
+    "compression": "Compression.lzw",
+    "read_all_blocks": true
+  },
+  "read_blue_density_2000.tif": {
+    "shape": [
+      34,
+      35
+    ],
+    "crs": "EPSG:32649",
+    "nodata": -9999.0,
+    "compression": "Compression.lzw",
+    "read_all_blocks": true
+  },
+  "read_wetland_density_2000.tif": {
+    "shape": [
+      34,
+      35
+    ],
+    "crs": "EPSG:32649",
+    "nodata": -9999.0,
+    "compression": "Compression.lzw",
+    "read_all_blocks": true
+  },
+  "read_green_density_2000.tif": {
+    "shape": [
+      34,
+      35
+    ],
+    "crs": "EPSG:32649",
+    "nodata": -9999.0,
+    "compression": "Compression.lzw",
+    "read_all_blocks": true
+  },
+  "read_blue_green_density_500.tif": {
+    "shape": [
+      135,
+      139
+    ],
+    "crs": "EPSG:32649",
+    "nodata": -9999.0,
+    "compression": "Compression.lzw",
+    "read_all_blocks": true
+  },
+  "read_blue_density_1000.tif": {
+    "shape": [
+      68,
+      70
+    ],
+    "crs": "EPSG:32649",
+    "nodata": -9999.0,
+    "compression": "Compression.lzw",
+    "read_all_blocks": true
+  },
+  "read_green_density_500.tif": {
+    "shape": [
+      135,
+      139
+    ],
+    "crs": "EPSG:32649",
+    "nodata": -9999.0,
+    "compression": "Compression.lzw",
+    "read_all_blocks": true
+  },
+  "read_blue_green_density_1000.tif": {
+    "shape": [
+      68,
+      70
+    ],
+    "crs": "EPSG:32649",
+    "nodata": -9999.0,
+    "compression": "Compression.lzw",
+    "read_all_blocks": true
+  },
+  "read_green_density_1000.tif": {
+    "shape": [
+      68,
+      70
+    ],
+    "crs": "EPSG:32649",
+    "nodata": -9999.0,
+    "compression": "Compression.lzw",
+    "read_all_blocks": true
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "queen_binary_diagonal_zero": true,
+  "Gistar_self_once": true,
+  "conditional_null_exact_enumeration_checks": [
+    {
+      "unit": 0,
+      "indicator": 0,
+      "exact_lisa_p": 0.5,
+      "mc_lisa_p": 0.5028,
+      "exact_gistar_p": 0.5,
+      "mc_gistar_p": 0.5028
+    },
+    {
+      "unit": 0,
+      "indicator": 1,
+      "exact_lisa_p": 0.3,
+      "mc_lisa_p": 0.3023,
+      "exact_gistar_p": 0.3,
+      "mc_gistar_p": 0.3023
+    },
+    {
+      "unit": 0,
+      "indicator": 2,
+      "exact_lisa_p": 0.3,
+      "mc_lisa_p": 0.3023,
+      "exact_gistar_p": 0.3,
+      "mc_gistar_p": 0.3023
+    },
+    {
+      "unit": 2,
+      "indicator": 0,
+      "exact_lisa_p": 0.3,
+      "mc_lisa_p": 0.309,
+      "exact_gistar_p": 0.3,
+      "mc_gistar_p": 0.309
+    },
+    {
+      "unit": 2,
+      "indicator": 1,
+      "exact_lisa_p": 0.3,
+      "mc_lisa_p": 0.309,
+      "exact_gistar_p": 0.3,
+      "mc_gistar_p": 0.309
+    },
+    {
+      "unit": 2,
+      "indicator": 2,
+      "exact_lisa_p": 0.3,
+      "mc_lisa_p": 0.309,
+      "exact_gistar_p": 0.3,
+      "mc_gistar_p": 0.309
+    },
+    {
+      "unit": 3,
+      "indicator": 0,
+      "exact_lisa_p": 0.4,
+      "mc_lisa_p": 0.4058,
+      "exact_gistar_p": 0.4,
+      "mc_gistar_p": 0.4058
+    },
+    {
+      "unit": 3,
+      "indicator": 1,
+      "exact_lisa_p": 0.3,
+      "mc_lisa_p": 0.3041,
+      "exact_gistar_p": 0.3,
+      "mc_gistar_p": 0.3041
+    },
+    {
+      "unit": 3,
+      "indicator": 2,
+      "exact_lisa_p": 0.3,
+      "mc_lisa_p": 0.3041,
+      "exact_gistar_p": 0.3,
+      "mc_gistar_p": 0.3041
+    },
+    {
+      "unit": 5,
+      "indicator": 0,
+      "exact_lisa_p": 0.3,
+      "mc_lisa_p": 0.3021,
+      "exact_gistar_p": 0.3,
+      "mc_gistar_p": 0.3021
+    },
+    {
+      "unit": 5,
+      "indicator": 1,
+      "exact_lisa_p": 0.3,
+      "mc_lisa_p": 0.3021,
+      "exact_gistar_p": 0.3,
+      "mc_gistar_p": 0.3021
+    },
+    {
+      "unit": 5,
+      "indicator": 2,
+      "exact_lisa_p": 0.3,
+      "mc_lisa_p": 0.3021,
+      "exact_gistar_p": 0.3,
+      "mc_gistar_p": 0.3021
+    }
+  ],
+  "pixel_overlap_15m_20m_exact": [
+    [
+      15,
+      5,
+      0
+    ],
+    [
+      0,
+      10,
+      10
+    ],
+    [
+      0,
+      0,
+      5
+    ]
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,307 @@
+﻿layer,full_field,shp_field,description,null_policy,units
+grid_500_full,GRID_ID,GRID_ID,稳定网格编号；尺度+由南向北行号+由西向东列号,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,row,F001,行号，0起始，南向北,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,col,F002,列号，0起始，西向东,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,scope_m2,F003,影像范围内面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_500_full,valid_m2,F004,有效分类面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_500_full,valid_cov,F005,有效分类面积/范围交集面积,numeric NULL/-1 class; see eligible/status; zero is real,proportion
+grid_500_full,edge_frac,F006,影像范围交集面积/完整方格面积,numeric NULL/-1 class; see eligible/status; zero is real,proportion
+grid_500_full,blue_m2,F007,蓝色空间 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_500_full,blue_pct,F008,蓝色空间 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_500_full,green_m2,F009,绿色空间（含耕地） 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_500_full,green_pct,F010,绿色空间（含耕地） 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_500_full,wetland_m2,F011,湿地 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_500_full,wetland_pct,F012,湿地 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_500_full,blue_green_m2,F013,蓝绿空间整体（含耕地、湿地） 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_500_full,blue_green_pct,F014,蓝绿空间整体（含耕地、湿地） 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_500_full,eligible,F015,正式统计资格，1纳入、0排除,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,status,F016,OK/EDGE_SMALL/LOW_COVER；范围内缺失不作为真实零,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,neighbors,F017,纳入统计子图内Queen邻居数,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,blue_li,F018,蓝色空间 局部Moran I,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,blue_lp,F019,蓝色空间 局部Moran双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,blue_lq,F020,蓝色空间 局部Moran BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,blue_gi,F021,蓝色空间 Gi*，含自身一次的二值邻域和/全域指标和,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,blue_gz,F022,蓝色空间 Gi*条件零分布标准化值；方向判据,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,blue_gp,F023,蓝色空间 Gi*双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,blue_gq,F024,蓝色空间 Gi* BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,blue_z,F025,蓝色空间 指标全域标准化值,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,blue_lag,F026,蓝色空间 行标准化Queen空间滞后，不含自身,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,blue_lc,F027,蓝色空间 LISA：-1无法计算，0不显著，1HH，2LL，3HL，4LH,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,blue_gc,F028,蓝色空间 热点：-1无法计算，0不显著，1热点，2冷点,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,green_li,F029,绿色空间（含耕地） 局部Moran I,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,green_lp,F030,绿色空间（含耕地） 局部Moran双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,green_lq,F031,绿色空间（含耕地） 局部Moran BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,green_gi,F032,绿色空间（含耕地） Gi*，含自身一次的二值邻域和/全域指标和,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,green_gz,F033,绿色空间（含耕地） Gi*条件零分布标准化值；方向判据,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,green_gp,F034,绿色空间（含耕地） Gi*双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,green_gq,F035,绿色空间（含耕地） Gi* BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,green_z,F036,绿色空间（含耕地） 指标全域标准化值,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,green_lag,F037,绿色空间（含耕地） 行标准化Queen空间滞后，不含自身,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,green_lc,F038,绿色空间（含耕地） LISA：-1无法计算，0不显著，1HH，2LL，3HL，4LH,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,green_gc,F039,绿色空间（含耕地） 热点：-1无法计算，0不显著，1热点，2冷点,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,blue_green_li,F040,蓝绿空间整体（含耕地、湿地） 局部Moran I,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,blue_green_lp,F041,蓝绿空间整体（含耕地、湿地） 局部Moran双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,blue_green_lq,F042,蓝绿空间整体（含耕地、湿地） 局部Moran BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,blue_green_gi,F043,蓝绿空间整体（含耕地、湿地） Gi*，含自身一次的二值邻域和/全域指标和,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,blue_green_gz,F044,蓝绿空间整体（含耕地、湿地） Gi*条件零分布标准化值；方向判据,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,blue_green_gp,F045,蓝绿空间整体（含耕地、湿地） Gi*双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,blue_green_gq,F046,蓝绿空间整体（含耕地、湿地） Gi* BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,blue_green_z,F047,蓝绿空间整体（含耕地、湿地） 指标全域标准化值,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,blue_green_lag,F048,蓝绿空间整体（含耕地、湿地） 行标准化Queen空间滞后，不含自身,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,blue_green_lc,F049,蓝绿空间整体（含耕地、湿地） LISA：-1无法计算，0不显著，1HH，2LL，3HL，4LH,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_full,blue_green_gc,F050,蓝绿空间整体（含耕地、湿地） 热点：-1无法计算，0不显著，1热点，2冷点,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,GRID_ID,GRID_ID,稳定网格编号；尺度+由南向北行号+由西向东列号,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,row,F001,行号，0起始，南向北,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,col,F002,列号，0起始，西向东,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,scope_m2,F003,影像范围内面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_500_clip,valid_m2,F004,有效分类面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_500_clip,valid_cov,F005,有效分类面积/范围交集面积,numeric NULL/-1 class; see eligible/status; zero is real,proportion
+grid_500_clip,edge_frac,F006,影像范围交集面积/完整方格面积,numeric NULL/-1 class; see eligible/status; zero is real,proportion
+grid_500_clip,blue_m2,F007,蓝色空间 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_500_clip,blue_pct,F008,蓝色空间 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_500_clip,green_m2,F009,绿色空间（含耕地） 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_500_clip,green_pct,F010,绿色空间（含耕地） 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_500_clip,wetland_m2,F011,湿地 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_500_clip,wetland_pct,F012,湿地 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_500_clip,blue_green_m2,F013,蓝绿空间整体（含耕地、湿地） 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_500_clip,blue_green_pct,F014,蓝绿空间整体（含耕地、湿地） 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_500_clip,eligible,F015,正式统计资格，1纳入、0排除,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,status,F016,OK/EDGE_SMALL/LOW_COVER；范围内缺失不作为真实零,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,neighbors,F017,纳入统计子图内Queen邻居数,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,blue_li,F018,蓝色空间 局部Moran I,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,blue_lp,F019,蓝色空间 局部Moran双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,blue_lq,F020,蓝色空间 局部Moran BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,blue_gi,F021,蓝色空间 Gi*，含自身一次的二值邻域和/全域指标和,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,blue_gz,F022,蓝色空间 Gi*条件零分布标准化值；方向判据,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,blue_gp,F023,蓝色空间 Gi*双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,blue_gq,F024,蓝色空间 Gi* BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,blue_z,F025,蓝色空间 指标全域标准化值,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,blue_lag,F026,蓝色空间 行标准化Queen空间滞后，不含自身,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,blue_lc,F027,蓝色空间 LISA：-1无法计算，0不显著，1HH，2LL，3HL，4LH,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,blue_gc,F028,蓝色空间 热点：-1无法计算，0不显著，1热点，2冷点,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,green_li,F029,绿色空间（含耕地） 局部Moran I,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,green_lp,F030,绿色空间（含耕地） 局部Moran双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,green_lq,F031,绿色空间（含耕地） 局部Moran BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,green_gi,F032,绿色空间（含耕地） Gi*，含自身一次的二值邻域和/全域指标和,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,green_gz,F033,绿色空间（含耕地） Gi*条件零分布标准化值；方向判据,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,green_gp,F034,绿色空间（含耕地） Gi*双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,green_gq,F035,绿色空间（含耕地） Gi* BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,green_z,F036,绿色空间（含耕地） 指标全域标准化值,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,green_lag,F037,绿色空间（含耕地） 行标准化Queen空间滞后，不含自身,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,green_lc,F038,绿色空间（含耕地） LISA：-1无法计算，0不显著，1HH，2LL，3HL，4LH,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,green_gc,F039,绿色空间（含耕地） 热点：-1无法计算，0不显著，1热点，2冷点,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,blue_green_li,F040,蓝绿空间整体（含耕地、湿地） 局部Moran I,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,blue_green_lp,F041,蓝绿空间整体（含耕地、湿地） 局部Moran双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,blue_green_lq,F042,蓝绿空间整体（含耕地、湿地） 局部Moran BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,blue_green_gi,F043,蓝绿空间整体（含耕地、湿地） Gi*，含自身一次的二值邻域和/全域指标和,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,blue_green_gz,F044,蓝绿空间整体（含耕地、湿地） Gi*条件零分布标准化值；方向判据,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,blue_green_gp,F045,蓝绿空间整体（含耕地、湿地） Gi*双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,blue_green_gq,F046,蓝绿空间整体（含耕地、湿地） Gi* BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,blue_green_z,F047,蓝绿空间整体（含耕地、湿地） 指标全域标准化值,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,blue_green_lag,F048,蓝绿空间整体（含耕地、湿地） 行标准化Queen空间滞后，不含自身,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,blue_green_lc,F049,蓝绿空间整体（含耕地、湿地） LISA：-1无法计算，0不显著，1HH，2LL，3HL，4LH,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_500_clip,blue_green_gc,F050,蓝绿空间整体（含耕地、湿地） 热点：-1无法计算，0不显著，1热点，2冷点,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,GRID_ID,GRID_ID,稳定网格编号；尺度+由南向北行号+由西向东列号,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,row,F001,行号，0起始，南向北,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,col,F002,列号，0起始，西向东,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,scope_m2,F003,影像范围内面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_1000_full,valid_m2,F004,有效分类面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_1000_full,valid_cov,F005,有效分类面积/范围交集面积,numeric NULL/-1 class; see eligible/status; zero is real,proportion
+grid_1000_full,edge_frac,F006,影像范围交集面积/完整方格面积,numeric NULL/-1 class; see eligible/status; zero is real,proportion
+grid_1000_full,blue_m2,F007,蓝色空间 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_1000_full,blue_pct,F008,蓝色空间 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_1000_full,green_m2,F009,绿色空间（含耕地） 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_1000_full,green_pct,F010,绿色空间（含耕地） 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_1000_full,wetland_m2,F011,湿地 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_1000_full,wetland_pct,F012,湿地 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_1000_full,blue_green_m2,F013,蓝绿空间整体（含耕地、湿地） 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_1000_full,blue_green_pct,F014,蓝绿空间整体（含耕地、湿地） 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_1000_full,eligible,F015,正式统计资格，1纳入、0排除,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,status,F016,OK/EDGE_SMALL/LOW_COVER；范围内缺失不作为真实零,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,neighbors,F017,纳入统计子图内Queen邻居数,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,blue_li,F018,蓝色空间 局部Moran I,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,blue_lp,F019,蓝色空间 局部Moran双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,blue_lq,F020,蓝色空间 局部Moran BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,blue_gi,F021,蓝色空间 Gi*，含自身一次的二值邻域和/全域指标和,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,blue_gz,F022,蓝色空间 Gi*条件零分布标准化值；方向判据,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,blue_gp,F023,蓝色空间 Gi*双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,blue_gq,F024,蓝色空间 Gi* BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,blue_z,F025,蓝色空间 指标全域标准化值,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,blue_lag,F026,蓝色空间 行标准化Queen空间滞后，不含自身,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,blue_lc,F027,蓝色空间 LISA：-1无法计算，0不显著，1HH，2LL，3HL，4LH,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,blue_gc,F028,蓝色空间 热点：-1无法计算，0不显著，1热点，2冷点,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,green_li,F029,绿色空间（含耕地） 局部Moran I,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,green_lp,F030,绿色空间（含耕地） 局部Moran双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,green_lq,F031,绿色空间（含耕地） 局部Moran BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,green_gi,F032,绿色空间（含耕地） Gi*，含自身一次的二值邻域和/全域指标和,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,green_gz,F033,绿色空间（含耕地） Gi*条件零分布标准化值；方向判据,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,green_gp,F034,绿色空间（含耕地） Gi*双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,green_gq,F035,绿色空间（含耕地） Gi* BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,green_z,F036,绿色空间（含耕地） 指标全域标准化值,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,green_lag,F037,绿色空间（含耕地） 行标准化Queen空间滞后，不含自身,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,green_lc,F038,绿色空间（含耕地） LISA：-1无法计算，0不显著，1HH，2LL，3HL，4LH,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,green_gc,F039,绿色空间（含耕地） 热点：-1无法计算，0不显著，1热点，2冷点,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,blue_green_li,F040,蓝绿空间整体（含耕地、湿地） 局部Moran I,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,blue_green_lp,F041,蓝绿空间整体（含耕地、湿地） 局部Moran双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,blue_green_lq,F042,蓝绿空间整体（含耕地、湿地） 局部Moran BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,blue_green_gi,F043,蓝绿空间整体（含耕地、湿地） Gi*，含自身一次的二值邻域和/全域指标和,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,blue_green_gz,F044,蓝绿空间整体（含耕地、湿地） Gi*条件零分布标准化值；方向判据,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,blue_green_gp,F045,蓝绿空间整体（含耕地、湿地） Gi*双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,blue_green_gq,F046,蓝绿空间整体（含耕地、湿地） Gi* BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,blue_green_z,F047,蓝绿空间整体（含耕地、湿地） 指标全域标准化值,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,blue_green_lag,F048,蓝绿空间整体（含耕地、湿地） 行标准化Queen空间滞后，不含自身,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,blue_green_lc,F049,蓝绿空间整体（含耕地、湿地） LISA：-1无法计算，0不显著，1HH，2LL，3HL，4LH,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_full,blue_green_gc,F050,蓝绿空间整体（含耕地、湿地） 热点：-1无法计算，0不显著，1热点，2冷点,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,GRID_ID,GRID_ID,稳定网格编号；尺度+由南向北行号+由西向东列号,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,row,F001,行号，0起始，南向北,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,col,F002,列号，0起始，西向东,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,scope_m2,F003,影像范围内面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_1000_clip,valid_m2,F004,有效分类面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_1000_clip,valid_cov,F005,有效分类面积/范围交集面积,numeric NULL/-1 class; see eligible/status; zero is real,proportion
+grid_1000_clip,edge_frac,F006,影像范围交集面积/完整方格面积,numeric NULL/-1 class; see eligible/status; zero is real,proportion
+grid_1000_clip,blue_m2,F007,蓝色空间 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_1000_clip,blue_pct,F008,蓝色空间 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_1000_clip,green_m2,F009,绿色空间（含耕地） 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_1000_clip,green_pct,F010,绿色空间（含耕地） 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_1000_clip,wetland_m2,F011,湿地 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_1000_clip,wetland_pct,F012,湿地 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_1000_clip,blue_green_m2,F013,蓝绿空间整体（含耕地、湿地） 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_1000_clip,blue_green_pct,F014,蓝绿空间整体（含耕地、湿地） 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_1000_clip,eligible,F015,正式统计资格，1纳入、0排除,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,status,F016,OK/EDGE_SMALL/LOW_COVER；范围内缺失不作为真实零,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,neighbors,F017,纳入统计子图内Queen邻居数,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,blue_li,F018,蓝色空间 局部Moran I,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,blue_lp,F019,蓝色空间 局部Moran双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,blue_lq,F020,蓝色空间 局部Moran BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,blue_gi,F021,蓝色空间 Gi*，含自身一次的二值邻域和/全域指标和,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,blue_gz,F022,蓝色空间 Gi*条件零分布标准化值；方向判据,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,blue_gp,F023,蓝色空间 Gi*双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,blue_gq,F024,蓝色空间 Gi* BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,blue_z,F025,蓝色空间 指标全域标准化值,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,blue_lag,F026,蓝色空间 行标准化Queen空间滞后，不含自身,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,blue_lc,F027,蓝色空间 LISA：-1无法计算，0不显著，1HH，2LL，3HL，4LH,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,blue_gc,F028,蓝色空间 热点：-1无法计算，0不显著，1热点，2冷点,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,green_li,F029,绿色空间（含耕地） 局部Moran I,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,green_lp,F030,绿色空间（含耕地） 局部Moran双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,green_lq,F031,绿色空间（含耕地） 局部Moran BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,green_gi,F032,绿色空间（含耕地） Gi*，含自身一次的二值邻域和/全域指标和,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,green_gz,F033,绿色空间（含耕地） Gi*条件零分布标准化值；方向判据,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,green_gp,F034,绿色空间（含耕地） Gi*双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,green_gq,F035,绿色空间（含耕地） Gi* BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,green_z,F036,绿色空间（含耕地） 指标全域标准化值,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,green_lag,F037,绿色空间（含耕地） 行标准化Queen空间滞后，不含自身,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,green_lc,F038,绿色空间（含耕地） LISA：-1无法计算，0不显著，1HH，2LL，3HL，4LH,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,green_gc,F039,绿色空间（含耕地） 热点：-1无法计算，0不显著，1热点，2冷点,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,blue_green_li,F040,蓝绿空间整体（含耕地、湿地） 局部Moran I,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,blue_green_lp,F041,蓝绿空间整体（含耕地、湿地） 局部Moran双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,blue_green_lq,F042,蓝绿空间整体（含耕地、湿地） 局部Moran BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,blue_green_gi,F043,蓝绿空间整体（含耕地、湿地） Gi*，含自身一次的二值邻域和/全域指标和,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,blue_green_gz,F044,蓝绿空间整体（含耕地、湿地） Gi*条件零分布标准化值；方向判据,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,blue_green_gp,F045,蓝绿空间整体（含耕地、湿地） Gi*双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,blue_green_gq,F046,蓝绿空间整体（含耕地、湿地） Gi* BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,blue_green_z,F047,蓝绿空间整体（含耕地、湿地） 指标全域标准化值,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,blue_green_lag,F048,蓝绿空间整体（含耕地、湿地） 行标准化Queen空间滞后，不含自身,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,blue_green_lc,F049,蓝绿空间整体（含耕地、湿地） LISA：-1无法计算，0不显著，1HH，2LL，3HL，4LH,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_1000_clip,blue_green_gc,F050,蓝绿空间整体（含耕地、湿地） 热点：-1无法计算，0不显著，1热点，2冷点,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,GRID_ID,GRID_ID,稳定网格编号；尺度+由南向北行号+由西向东列号,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,row,F001,行号，0起始，南向北,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,col,F002,列号，0起始，西向东,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,scope_m2,F003,影像范围内面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_2000_full,valid_m2,F004,有效分类面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_2000_full,valid_cov,F005,有效分类面积/范围交集面积,numeric NULL/-1 class; see eligible/status; zero is real,proportion
+grid_2000_full,edge_frac,F006,影像范围交集面积/完整方格面积,numeric NULL/-1 class; see eligible/status; zero is real,proportion
+grid_2000_full,blue_m2,F007,蓝色空间 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_2000_full,blue_pct,F008,蓝色空间 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_2000_full,green_m2,F009,绿色空间（含耕地） 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_2000_full,green_pct,F010,绿色空间（含耕地） 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_2000_full,wetland_m2,F011,湿地 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_2000_full,wetland_pct,F012,湿地 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_2000_full,blue_green_m2,F013,蓝绿空间整体（含耕地、湿地） 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_2000_full,blue_green_pct,F014,蓝绿空间整体（含耕地、湿地） 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_2000_full,eligible,F015,正式统计资格，1纳入、0排除,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,status,F016,OK/EDGE_SMALL/LOW_COVER；范围内缺失不作为真实零,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,neighbors,F017,纳入统计子图内Queen邻居数,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,blue_li,F018,蓝色空间 局部Moran I,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,blue_lp,F019,蓝色空间 局部Moran双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,blue_lq,F020,蓝色空间 局部Moran BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,blue_gi,F021,蓝色空间 Gi*，含自身一次的二值邻域和/全域指标和,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,blue_gz,F022,蓝色空间 Gi*条件零分布标准化值；方向判据,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,blue_gp,F023,蓝色空间 Gi*双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,blue_gq,F024,蓝色空间 Gi* BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,blue_z,F025,蓝色空间 指标全域标准化值,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,blue_lag,F026,蓝色空间 行标准化Queen空间滞后，不含自身,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,blue_lc,F027,蓝色空间 LISA：-1无法计算，0不显著，1HH，2LL，3HL，4LH,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,blue_gc,F028,蓝色空间 热点：-1无法计算，0不显著，1热点，2冷点,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,green_li,F029,绿色空间（含耕地） 局部Moran I,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,green_lp,F030,绿色空间（含耕地） 局部Moran双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,green_lq,F031,绿色空间（含耕地） 局部Moran BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,green_gi,F032,绿色空间（含耕地） Gi*，含自身一次的二值邻域和/全域指标和,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,green_gz,F033,绿色空间（含耕地） Gi*条件零分布标准化值；方向判据,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,green_gp,F034,绿色空间（含耕地） Gi*双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,green_gq,F035,绿色空间（含耕地） Gi* BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,green_z,F036,绿色空间（含耕地） 指标全域标准化值,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,green_lag,F037,绿色空间（含耕地） 行标准化Queen空间滞后，不含自身,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,green_lc,F038,绿色空间（含耕地） LISA：-1无法计算，0不显著，1HH，2LL，3HL，4LH,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,green_gc,F039,绿色空间（含耕地） 热点：-1无法计算，0不显著，1热点，2冷点,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,blue_green_li,F040,蓝绿空间整体（含耕地、湿地） 局部Moran I,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,blue_green_lp,F041,蓝绿空间整体（含耕地、湿地） 局部Moran双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,blue_green_lq,F042,蓝绿空间整体（含耕地、湿地） 局部Moran BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,blue_green_gi,F043,蓝绿空间整体（含耕地、湿地） Gi*，含自身一次的二值邻域和/全域指标和,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,blue_green_gz,F044,蓝绿空间整体（含耕地、湿地） Gi*条件零分布标准化值；方向判据,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,blue_green_gp,F045,蓝绿空间整体（含耕地、湿地） Gi*双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,blue_green_gq,F046,蓝绿空间整体（含耕地、湿地） Gi* BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,blue_green_z,F047,蓝绿空间整体（含耕地、湿地） 指标全域标准化值,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,blue_green_lag,F048,蓝绿空间整体（含耕地、湿地） 行标准化Queen空间滞后，不含自身,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,blue_green_lc,F049,蓝绿空间整体（含耕地、湿地） LISA：-1无法计算，0不显著，1HH，2LL，3HL，4LH,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_full,blue_green_gc,F050,蓝绿空间整体（含耕地、湿地） 热点：-1无法计算，0不显著，1热点，2冷点,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,GRID_ID,GRID_ID,稳定网格编号；尺度+由南向北行号+由西向东列号,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,row,F001,行号，0起始，南向北,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,col,F002,列号，0起始，西向东,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,scope_m2,F003,影像范围内面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_2000_clip,valid_m2,F004,有效分类面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_2000_clip,valid_cov,F005,有效分类面积/范围交集面积,numeric NULL/-1 class; see eligible/status; zero is real,proportion
+grid_2000_clip,edge_frac,F006,影像范围交集面积/完整方格面积,numeric NULL/-1 class; see eligible/status; zero is real,proportion
+grid_2000_clip,blue_m2,F007,蓝色空间 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_2000_clip,blue_pct,F008,蓝色空间 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_2000_clip,green_m2,F009,绿色空间（含耕地） 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_2000_clip,green_pct,F010,绿色空间（含耕地） 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_2000_clip,wetland_m2,F011,湿地 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_2000_clip,wetland_pct,F012,湿地 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_2000_clip,blue_green_m2,F013,蓝绿空间整体（含耕地、湿地） 面积,numeric NULL/-1 class; see eligible/status; zero is real,m²
+grid_2000_clip,blue_green_pct,F014,蓝绿空间整体（含耕地、湿地） 有效面积占比,numeric NULL/-1 class; see eligible/status; zero is real,%
+grid_2000_clip,eligible,F015,正式统计资格，1纳入、0排除,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,status,F016,OK/EDGE_SMALL/LOW_COVER；范围内缺失不作为真实零,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,neighbors,F017,纳入统计子图内Queen邻居数,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,blue_li,F018,蓝色空间 局部Moran I,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,blue_lp,F019,蓝色空间 局部Moran双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,blue_lq,F020,蓝色空间 局部Moran BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,blue_gi,F021,蓝色空间 Gi*，含自身一次的二值邻域和/全域指标和,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,blue_gz,F022,蓝色空间 Gi*条件零分布标准化值；方向判据,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,blue_gp,F023,蓝色空间 Gi*双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,blue_gq,F024,蓝色空间 Gi* BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,blue_z,F025,蓝色空间 指标全域标准化值,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,blue_lag,F026,蓝色空间 行标准化Queen空间滞后，不含自身,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,blue_lc,F027,蓝色空间 LISA：-1无法计算，0不显著，1HH，2LL，3HL，4LH,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,blue_gc,F028,蓝色空间 热点：-1无法计算，0不显著，1热点，2冷点,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,green_li,F029,绿色空间（含耕地） 局部Moran I,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,green_lp,F030,绿色空间（含耕地） 局部Moran双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,green_lq,F031,绿色空间（含耕地） 局部Moran BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,green_gi,F032,绿色空间（含耕地） Gi*，含自身一次的二值邻域和/全域指标和,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,green_gz,F033,绿色空间（含耕地） Gi*条件零分布标准化值；方向判据,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,green_gp,F034,绿色空间（含耕地） Gi*双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,green_gq,F035,绿色空间（含耕地） Gi* BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,green_z,F036,绿色空间（含耕地） 指标全域标准化值,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,green_lag,F037,绿色空间（含耕地） 行标准化Queen空间滞后，不含自身,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,green_lc,F038,绿色空间（含耕地） LISA：-1无法计算，0不显著，1HH，2LL，3HL，4LH,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,green_gc,F039,绿色空间（含耕地） 热点：-1无法计算，0不显著，1热点，2冷点,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,blue_green_li,F040,蓝绿空间整体（含耕地、湿地） 局部Moran I,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,blue_green_lp,F041,蓝绿空间整体（含耕地、湿地） 局部Moran双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,blue_green_lq,F042,蓝绿空间整体（含耕地、湿地） 局部Moran BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,blue_green_gi,F043,蓝绿空间整体（含耕地、湿地） Gi*，含自身一次的二值邻域和/全域指标和,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,blue_green_gz,F044,蓝绿空间整体（含耕地、湿地） Gi*条件零分布标准化值；方向判据,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,blue_green_gp,F045,蓝绿空间整体（含耕地、湿地） Gi*双侧条件置换p,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,blue_green_gq,F046,蓝绿空间整体（含耕地、湿地） Gi* BH校正q,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,blue_green_z,F047,蓝绿空间整体（含耕地、湿地） 指标全域标准化值,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,blue_green_lag,F048,蓝绿空间整体（含耕地、湿地） 行标准化Queen空间滞后，不含自身,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,blue_green_lc,F049,蓝绿空间整体（含耕地、湿地） LISA：-1无法计算，0不显著，1HH，2LL，3HL，4LH,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless
+grid_2000_clip,blue_green_gc,F050,蓝绿空间整体（含耕地、湿地） 热点：-1无法计算，0不显著，1热点，2冷点,numeric NULL/-1 class; see eligible/status; zero is real,dimensionless

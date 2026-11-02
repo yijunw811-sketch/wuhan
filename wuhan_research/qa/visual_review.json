@@ -1,0 +1,15 @@
+{
+  "method": "Reviewed every exported PNG on eight contact sheets; full-resolution classification and 1km blue-green Gi* separately inspected",
+  "map_count": 43,
+  "checked": [
+    "Chinese glyphs",
+    "legend category-color agreement",
+    "layout/frame",
+    "map orientation",
+    "fixed geographic extent and aspect",
+    "scale bar labelled in projected km",
+    "required range/year/source notes"
+  ],
+  "results": "No visible missing glyphs, blank maps, stretching or legend collisions found",
+  "limitations": "Contact-sheet review for all maps; detailed full-resolution review for selected key maps. ArcMap open test not possible."
+}

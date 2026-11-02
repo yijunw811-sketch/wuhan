@@ -1,0 +1,454 @@
+{
+  "500": {
+    "rows": 18765,
+    "eligible": 18630,
+    "excluded": 135,
+    "FDR_and_legend_recomputed": "PASS",
+    "isolated": 0
+  },
+  "1000": {
+    "rows": 4760,
+    "eligible": 4692,
+    "excluded": 68,
+    "FDR_and_legend_recomputed": "PASS",
+    "isolated": 0
+  },
+  "2000": {
+    "rows": 1190,
+    "eligible": 1190,
+    "excluded": 0,
+    "FDR_and_legend_recomputed": "PASS",
+    "isolated": 0
+  },
+  "GPKG_layers": [
+    [
+      "scope",
+      "Polygon"
+    ],
+    [
+      "valid_scope",
+      "Polygon"
+    ],
+    [
+      "grid_500_full",
+      "Polygon"
+    ],
+    [
+      "grid_500_clip",
+      "Polygon"
+    ],
+    [
+      "grid_1000_full",
+      "Polygon"
+    ],
+    [
+      "grid_1000_clip",
+      "Polygon"
+    ],
+    [
+      "grid_2000_full",
+      "Polygon"
+    ],
+    [
+      "grid_2000_clip",
+      "Polygon"
+    ],
+    [
+      "class_crosswalk",
+      null
+    ]
+  ],
+  "all_raster_blocks_read": true,
+  "maps": [
+    {
+      "name": "01_土地利用分类图",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "02_蓝色空间分布图",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "03_blue_密度_1000m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "03_blue_密度_2000m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "03_blue_密度_500m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "04_绿色空间分布图",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "05_green_密度_1000m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "05_green_密度_2000m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "05_green_密度_500m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "06_蓝绿空间整体分布图",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "07_blue_green_密度_1000m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "07_blue_green_密度_2000m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "07_blue_green_密度_500m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "08_blue_lc_1000m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "08_blue_lc_2000m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "08_blue_lc_500m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "09_green_lc_1000m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "09_green_lc_2000m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "09_green_lc_500m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "10_blue_green_lc_1000m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "10_blue_green_lc_2000m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "10_blue_green_lc_500m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "11_blue_gc_1000m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "11_blue_gc_2000m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "11_blue_gc_500m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "12_green_gc_1000m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "12_green_gc_2000m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "12_green_gc_500m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "13_blue_green_gc_1000m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "13_blue_green_gc_2000m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "13_blue_green_gc_500m",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "14_湿地分布图",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "15_分类面积比例",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "16_尺度比较",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "Moran_blue_1000",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "Moran_blue_2000",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "Moran_blue_500",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "Moran_blue_green_1000",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "Moran_blue_green_2000",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "Moran_blue_green_500",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "Moran_green_1000",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "Moran_green_2000",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    },
+    {
+      "name": "Moran_green_500",
+      "PNG_size": [
+        4960,
+        3507
+      ],
+      "PDF_parsed_and_rendered": true,
+      "A3_landscape_300DPI": true
+    }
+  ],
+  "ArcMap105_open_test": "NOT RUN: ArcGIS unavailable",
+  "standard_currentness": "NOT VERIFIED ONLINE: official portal denied by network policy",
+  "independent_accuracy": "NOT AVAILABLE: no validation samples"
+}
