@@ -36,3 +36,9 @@ bash scripts/run.sh
 ```
 
 配置见 `config/analysis.json`，固定依赖见 `scripts/requirements.txt`。需有依赖下载网络；当前云机器可复用已安装的依赖。正式主尺度为1km；500m/2km用于敏感性比较。
+
+## ArcGIS Desktop 10.5 补充交付
+
+**[下载真实GDB及ArcGIS专用数据包](arcgis105/wuhan_arcgis105.zip)** · [GDB说明与本机MXD生成入口](arcgis105/README.md)
+
+GDB已在云端实际创建并回读核验。云端没有ArcGIS，未生成真实MXD；需要在本机ArcMap10.5执行随包脚本，加载GDB和栅格后保存并验证MXD。
