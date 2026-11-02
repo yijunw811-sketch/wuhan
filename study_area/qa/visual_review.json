@@ -1,0 +1,10 @@
+{
+  "maps": 43,
+  "every_map_reviewed_on_contact_sheets": true,
+  "full_resolution_checks": [
+    "study land use",
+    "study blue-green KDE h1000"
+  ],
+  "layout_glyphs_legends_scope_scale_north_notes": "PASS",
+  "ArcMap_open": "NOT RUN"
+}

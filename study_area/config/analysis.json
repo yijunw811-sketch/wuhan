@@ -1,0 +1,137 @@
+{
+  "input_tiff": "data/input/完整图纸.tif",
+  "output_dir": ".",
+  "rgb_mapping": {
+    "1": [
+      255,
+      0,
+      0
+    ],
+    "2": [
+      255,
+      255,
+      0
+    ],
+    "3": [
+      0,
+      255,
+      255
+    ],
+    "4": [
+      0,
+      139,
+      0
+    ],
+    "5": [
+      0,
+      0,
+      255
+    ],
+    "6": [
+      139,
+      139,
+      0
+    ],
+    "7": [
+      255,
+      0,
+      255
+    ],
+    "8": [
+      0,
+      139,
+      139
+    ]
+  },
+  "groups": {
+    "blue": [
+      1,
+      5
+    ],
+    "green": [
+      3,
+      6,
+      8
+    ],
+    "wetland": [
+      4
+    ],
+    "blue_green": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      8
+    ]
+  },
+  "grid_sizes_m": [
+    500,
+    1000,
+    2000
+  ],
+  "main_grid_m": 1000,
+  "valid_coverage_threshold": 0.95,
+  "edge_min_fraction": 0.25,
+  "edge_sensitivity_min_fractions": [
+    0,
+    0.5
+  ],
+  "grid_origin": "input raster lower left",
+  "pixel_grid_allocation": "exact area overlap; block processing",
+  "weights": "Queen; Moran row standardized, no self; Gi* separately constructed with self once",
+  "seed": 20261102,
+  "permutations": 9999,
+  "fdr": "BH per indicator x scale x method",
+  "alpha": 0.05,
+  "density_breaks_percent": [
+    0,
+    10,
+    25,
+    50,
+    75,
+    100
+  ],
+  "data_year": "待补充",
+  "standard_reference": "自然资发〔2023〕234号；现行性尚未在线核实",
+  "range_note": "研究范围为用户提供的边界；未核定其行政或规划边界属性",
+  "smoothing": false,
+  "status": "analysis completed and outputs verified",
+  "source_names": {
+    "1": "长江／河流水面",
+    "2": "建设用地",
+    "3": "耕地",
+    "4": "湿地",
+    "5": "湖泊水面",
+    "6": "林地",
+    "7": "裸地",
+    "8": "草地"
+  },
+  "class_colors": [
+    "#eeeeee",
+    "#3182bd",
+    "#b6b4b1",
+    "#cedc8a",
+    "#55b6a2",
+    "#6baed6",
+    "#347d4c",
+    "#d7bd93",
+    "#8fbc75"
+  ],
+  "map_page_inches": [
+    16.535,
+    11.693
+  ],
+  "map_dpi": 300,
+  "nodata": {
+    "classification": 0,
+    "binary_and_types": 255,
+    "density": -9999
+  },
+  "density_aligned_note": "15m display allocation of independently computed native-grid density, not 15m statistics",
+  "input_classification": "../../wuhan_research/data/classification.tif",
+  "input_boundary": "../input/boundary.shp",
+  "output_root": "/workspace/wuhan_study",
+  "area_tolerance_m2": 0.01,
+  "coordinate_transform_note": "CGCS2000 to WGS84: default PROJ ballpark transformation, accuracy unknown, no external control points"
+}

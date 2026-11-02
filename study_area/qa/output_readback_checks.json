@@ -1,0 +1,297 @@
+{
+  "500": {
+    "full_rows": 18765,
+    "clipped_rows": 13433,
+    "eligible": 13177,
+    "area_and_grid_ID_checks": "PASS"
+  },
+  "1000": {
+    "full_rows": 4760,
+    "clipped_rows": 3454,
+    "eligible": 3334,
+    "area_and_grid_ID_checks": "PASS"
+  },
+  "2000": {
+    "full_rows": 1190,
+    "clipped_rows": 906,
+    "eligible": 845,
+    "area_and_grid_ID_checks": "PASS"
+  },
+  "all_FDR_families_and_legends": "PASS",
+  "GDB": [
+    {
+      "layer": "scope",
+      "rows": 1,
+      "all_attributes_and_NULLs": "PASS",
+      "geometry_area_max_error_m2": 0.00013685226440429688
+    },
+    {
+      "layer": "grid_500_full",
+      "rows": 18765,
+      "all_attributes_and_NULLs": "PASS",
+      "geometry_area_max_error_m2": 0.0
+    },
+    {
+      "layer": "grid_500_clip",
+      "rows": 13433,
+      "all_attributes_and_NULLs": "PASS",
+      "geometry_area_max_error_m2": 2.8877781005576253e-05
+    },
+    {
+      "layer": "grid_1000_full",
+      "rows": 4760,
+      "all_attributes_and_NULLs": "PASS",
+      "geometry_area_max_error_m2": 0.0
+    },
+    {
+      "layer": "grid_1000_clip",
+      "rows": 3454,
+      "all_attributes_and_NULLs": "PASS",
+      "geometry_area_max_error_m2": 4.411349073052406e-05
+    },
+    {
+      "layer": "grid_2000_full",
+      "rows": 1190,
+      "all_attributes_and_NULLs": "PASS",
+      "geometry_area_max_error_m2": 0.0
+    },
+    {
+      "layer": "grid_2000_clip",
+      "rows": 906,
+      "all_attributes_and_NULLs": "PASS",
+      "geometry_area_max_error_m2": 8.342135697603226e-05
+    },
+    {
+      "layer": "valid_scope",
+      "rows": 1,
+      "all_attributes_and_NULLs": "PASS",
+      "geometry_area_max_error_m2": 0.00013685226440429688
+    },
+    {
+      "layer": "repaired_features",
+      "rows": 2,
+      "all_attributes_and_NULLs": "PASS",
+      "geometry_area_max_error_m2": 0.00013399124145507812
+    }
+  ],
+  "GeoTIFF_full_read": "PASS",
+  "ArcMap_open_test": "NOT RUN: no ArcGIS",
+  "real_MXD": "NOT CREATED IN CLOUD",
+  "maps": [
+    {
+      "file": "01_研究范围土地利用分类",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "02_蓝色空间分布",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "03_blue_网格面积占比_1000m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "03_blue_网格面积占比_2000m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "03_blue_网格面积占比_500m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "04_绿色空间分布",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "05_green_网格面积占比_1000m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "05_green_网格面积占比_2000m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "05_green_网格面积占比_500m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "06_蓝绿整体分布",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "07_blue_green_网格面积占比_1000m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "07_blue_green_网格面积占比_2000m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "07_blue_green_网格面积占比_500m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "08_blue_lc_1000m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "08_blue_lc_2000m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "08_blue_lc_500m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "09_green_lc_1000m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "09_green_lc_2000m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "09_green_lc_500m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "10_blue_green_lc_1000m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "10_blue_green_lc_2000m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "10_blue_green_lc_500m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "11_blue_gc_1000m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "11_blue_gc_2000m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "11_blue_gc_500m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "12_green_gc_1000m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "12_green_gc_2000m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "12_green_gc_500m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "13_blue_green_gc_1000m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "13_blue_green_gc_2000m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "13_blue_green_gc_500m",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "14_湿地分布",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "15_分类面积与比例",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "16_网格尺度比较",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "Moran_blue_1000",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "Moran_blue_2000",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "Moran_blue_500",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "Moran_blue_green_1000",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "Moran_blue_green_2000",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "Moran_blue_green_500",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "Moran_green_1000",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "Moran_green_2000",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "Moran_green_500",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    }
+  ]
+}

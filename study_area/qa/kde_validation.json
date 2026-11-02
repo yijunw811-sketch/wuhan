@@ -1,0 +1,617 @@
+{
+  "small_cases": {
+    "unit_discrete_kernel_integral": "PASS",
+    "full_plane_mass_conservation": "PASS",
+    "FFT_vs_direct_convolution": "PASS",
+    "halo_stripes_vs_whole": "PASS",
+    "constant_field_edge_correction": "PASS"
+  },
+  "input": {
+    "sha256": "dcf82f678c4a7f964a9f8cb9b5d39698e5e2b8970126d282aa2c4da229100a35",
+    "bounds": [
+      782722.5,
+      3352507.5,
+      851842.5,
+      3419917.5
+    ],
+    "crs": "EPSG:32649",
+    "source_resolution_m": 15.0,
+    "output_resolution_m": 90,
+    "equivalent_full_pixel_counts": {
+      "blue": 1967256.3954688627,
+      "green": 5940040.963855216,
+      "wetland": 124451.92870906921,
+      "blue_green": 8031749.288033151
+    },
+    "scope_polygon": "/workspace/wuhan_study/data/study_scope.shp",
+    "fractional_domain": true,
+    "no_reclassification": true
+  },
+  "500": {
+    "kernel_sum": 1.0,
+    "kernel_radius_pixels": 34,
+    "kernel_support_m": 500,
+    "exposure_min": 0.13439700874411512,
+    "linear_union_max_error_ha_per_km2": 1.3034018309099338e-13,
+    "cropped_raw_mass_ha": {
+      "blue": 43708.520047412254,
+      "green": 132292.7507776185,
+      "wetland": 2763.2258427844627,
+      "blue_green": 178764.49666781523
+    },
+    "cropped_raw_expected_ha_from_exposure": {
+      "blue": 43708.520047412254,
+      "green": 132292.7507776185,
+      "wetland": 2763.2258427844627,
+      "blue_green": 178764.49666781523
+    },
+    "original_target_area_ha": {
+      "blue": 44263.26889804941,
+      "green": 133650.92168674237,
+      "wetland": 2800.168395954057,
+      "blue_green": 180714.3589807459
+    },
+    "edge_corrected_mass_conservation": "NOT CLAIMED: edge correction changes the integrated intensity",
+    "kernel_integral_note": "Finite 15m quadrature normalized to integral 1; output is 90m area mean",
+    "float32_90m_union_max_error": {
+      "raw": 8.106231689453125e-06,
+      "edge_corrected": 8.36048275232315e-06
+    },
+    "90m_raw_integral_matches_15m_integral": "PASS; max(0.001 ha, 1e-7 relative)"
+  },
+  "1000": {
+    "kernel_sum": 1.0,
+    "kernel_radius_pixels": 67,
+    "kernel_support_m": 1000,
+    "exposure_min": 0.13020027337332593,
+    "linear_union_max_error_ha_per_km2": 1.2789769243681803e-13,
+    "cropped_raw_mass_ha": {
+      "blue": 43306.50203485143,
+      "green": 131039.368066558,
+      "wetland": 2743.390064122381,
+      "blue_green": 177089.2601655318
+    },
+    "cropped_raw_expected_ha_from_exposure": {
+      "blue": 43306.50203485144,
+      "green": 131039.368066558,
+      "wetland": 2743.3900641223813,
+      "blue_green": 177089.2601655318
+    },
+    "original_target_area_ha": {
+      "blue": 44263.26889804941,
+      "green": 133650.92168674237,
+      "wetland": 2800.168395954057,
+      "blue_green": 180714.3589807459
+    },
+    "edge_corrected_mass_conservation": "NOT CLAIMED: edge correction changes the integrated intensity",
+    "kernel_integral_note": "Finite 15m quadrature normalized to integral 1; output is 90m area mean",
+    "float32_90m_union_max_error": {
+      "raw": 8.365139365196228e-06,
+      "edge_corrected": 8.365139365196228e-06
+    },
+    "90m_raw_integral_matches_15m_integral": "PASS; max(0.001 ha, 1e-7 relative)"
+  },
+  "2000": {
+    "kernel_sum": 1.0,
+    "kernel_radius_pixels": 134,
+    "kernel_support_m": 2000,
+    "exposure_min": 0.1417929554055311,
+    "linear_union_max_error_ha_per_km2": 1.1235457009206584e-13,
+    "cropped_raw_mass_ha": {
+      "blue": 42664.52157674688,
+      "green": 128803.4639598023,
+      "wetland": 2722.4075529592415,
+      "blue_green": 174190.39308950843
+    },
+    "cropped_raw_expected_ha_from_exposure": {
+      "blue": 42664.52157674688,
+      "green": 128803.4639598023,
+      "wetland": 2722.4075529592415,
+      "blue_green": 174190.39308950843
+    },
+    "original_target_area_ha": {
+      "blue": 44263.26889804941,
+      "green": 133650.92168674237,
+      "wetland": 2800.168395954057,
+      "blue_green": 180714.3589807459
+    },
+    "edge_corrected_mass_conservation": "NOT CLAIMED: edge correction changes the integrated intensity",
+    "kernel_integral_note": "Finite 15m quadrature normalized to integral 1; output is 90m area mean",
+    "float32_90m_union_max_error": {
+      "raw": 8.374452590942383e-06,
+      "edge_corrected": 8.374452590942383e-06
+    },
+    "90m_raw_integral_matches_15m_integral": "PASS; max(0.001 ha, 1e-7 relative)"
+  },
+  "output_readback": {
+    "kde_green_h500_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kernel_exposure_h2000.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_green_h2000_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kernel_exposure_h500.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_wetland_h1000_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_green_h1000_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_h2000_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_wetland_h500_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_green_h1000_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_green_h2000_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_green_h2000_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_green_h500_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kernel_exposure_h1000.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_wetland_h2000_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_h1000_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_green_h500_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_green_h500_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "study_coverage_90m.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_h1000_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_h2000_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_green_h1000_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_wetland_h2000_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_green_h2000_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_h500_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_green_h1000_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_wetland_h500_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_wetland_h1000_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_h500_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    }
+  },
+  "map_checks": [
+    {
+      "file": "KDE_blue_green_h1000_edge_corrected",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_blue_green_h1000_raw",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_blue_green_h2000_edge_corrected",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_blue_green_h2000_raw",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_blue_green_h500_edge_corrected",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_blue_green_h500_raw",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_blue_h1000_edge_corrected",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_blue_h1000_raw",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_blue_h2000_edge_corrected",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_blue_h2000_raw",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_blue_h500_edge_corrected",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_blue_h500_raw",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_green_h1000_edge_corrected",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_green_h1000_raw",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_green_h2000_edge_corrected",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_green_h2000_raw",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_green_h500_edge_corrected",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_green_h500_raw",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_搜索半径敏感性比较",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "boundary": {
+    "source_CRS": "EPSG:4547",
+    "analysis_CRS": "EPSG:32649",
+    "repairs": [
+      {
+        "feature": 0,
+        "valid_before": true,
+        "reason": "Valid Geometry",
+        "source_area_before_m2": 6.058895999548953,
+        "source_area_after_m2": 6.058895999548953,
+        "delta_m2": 0.0,
+        "drop_Z_for_2D_analysis": true,
+        "kept": true
+      },
+      {
+        "feature": 1,
+        "valid_before": false,
+        "reason": "Ring Self-intersection[560060.8577 3375982.5023]",
+        "source_area_before_m2": 3250160588.573768,
+        "source_area_after_m2": 3250160588.573772,
+        "delta_m2": 3.814697265625e-06,
+        "drop_Z_for_2D_analysis": true,
+        "kept": true
+      }
+    ],
+    "study_area_m2": 3255587235.688132,
+    "outside_image_m2": 0.0,
+    "exact_fraction_area_error_m2": 9.5367431640625e-07,
+    "partial_pixels": 30358,
+    "tiny_feature_kept": true,
+    "source_classification_sha256": "44be533643d0814077c1b61efc080740d01b62130081c07fcc39a5962e58036b"
+  },
+  "weights_500_main": {
+    "n": 13177,
+    "islands": 0,
+    "symmetric_binary": true,
+    "self_Moran": 0,
+    "self_Gistar": 1,
+    "order": "eligible dataframe order; GRID_ID exported",
+    "fdr_family": "indicator x scale x method x edge scenario",
+    "seed_local": "np.random.seed((seed+scale+local_index*1009)%2147483647) per unit",
+    "seed_global": "numpy default_rng(seed+scale)"
+  },
+  "grid_500_full": {
+    "reread": true,
+    "rows": 18765,
+    "unique_short_fields": true,
+    "crs": "EPSG:32649",
+    "numeric_roundtrip_tolerance": 1e-06
+  },
+  "grid_500_clip": {
+    "reread": true,
+    "rows": 13433,
+    "unique_short_fields": true,
+    "crs": "EPSG:32649",
+    "numeric_roundtrip_tolerance": 1e-06
+  },
+  "weights_500_edge_0": {
+    "n": 13433,
+    "islands": 0,
+    "symmetric_binary": true,
+    "self_Moran": 0,
+    "self_Gistar": 1,
+    "order": "eligible dataframe order; GRID_ID exported",
+    "fdr_family": "indicator x scale x method x edge scenario",
+    "seed_local": "np.random.seed((seed+scale+local_index*1009)%2147483647) per unit",
+    "seed_global": "numpy default_rng(seed+scale)"
+  },
+  "weights_500_edge_0.5": {
+    "n": 13033,
+    "islands": 0,
+    "symmetric_binary": true,
+    "self_Moran": 0,
+    "self_Gistar": 1,
+    "order": "eligible dataframe order; GRID_ID exported",
+    "fdr_family": "indicator x scale x method x edge scenario",
+    "seed_local": "np.random.seed((seed+scale+local_index*1009)%2147483647) per unit",
+    "seed_global": "numpy default_rng(seed+scale)"
+  },
+  "area_500": {
+    "raster_exact_m2": 3255587235.688133,
+    "grid_m2": 3255587235.6881323,
+    "polygon_m2": 3255587235.688132,
+    "max_per_grid_error_m2": 1.0404619388282299e-07,
+    "absolute_total_error_m2": 4.76837158203125e-07,
+    "boundary_grid_double_cut": "exact geometry correction",
+    "tolerance_m2": 0.01
+  },
+  "weights_1000_main": {
+    "n": 3334,
+    "islands": 0,
+    "symmetric_binary": true,
+    "self_Moran": 0,
+    "self_Gistar": 1,
+    "order": "eligible dataframe order; GRID_ID exported",
+    "fdr_family": "indicator x scale x method x edge scenario",
+    "seed_local": "np.random.seed((seed+scale+local_index*1009)%2147483647) per unit",
+    "seed_global": "numpy default_rng(seed+scale)"
+  },
+  "grid_1000_full": {
+    "reread": true,
+    "rows": 4760,
+    "unique_short_fields": true,
+    "crs": "EPSG:32649",
+    "numeric_roundtrip_tolerance": 1e-06
+  },
+  "grid_1000_clip": {
+    "reread": true,
+    "rows": 3454,
+    "unique_short_fields": true,
+    "crs": "EPSG:32649",
+    "numeric_roundtrip_tolerance": 1e-06
+  },
+  "weights_1000_edge_0": {
+    "n": 3454,
+    "islands": 0,
+    "symmetric_binary": true,
+    "self_Moran": 0,
+    "self_Gistar": 1,
+    "order": "eligible dataframe order; GRID_ID exported",
+    "fdr_family": "indicator x scale x method x edge scenario",
+    "seed_local": "np.random.seed((seed+scale+local_index*1009)%2147483647) per unit",
+    "seed_global": "numpy default_rng(seed+scale)"
+  },
+  "weights_1000_edge_0.5": {
+    "n": 3255,
+    "islands": 0,
+    "symmetric_binary": true,
+    "self_Moran": 0,
+    "self_Gistar": 1,
+    "order": "eligible dataframe order; GRID_ID exported",
+    "fdr_family": "indicator x scale x method x edge scenario",
+    "seed_local": "np.random.seed((seed+scale+local_index*1009)%2147483647) per unit",
+    "seed_global": "numpy default_rng(seed+scale)"
+  },
+  "area_1000": {
+    "raster_exact_m2": 3255587235.688133,
+    "grid_m2": 3255587235.688133,
+    "polygon_m2": 3255587235.688132,
+    "max_per_grid_error_m2": 1.1583324521780014e-07,
+    "absolute_total_error_m2": 9.5367431640625e-07,
+    "boundary_grid_double_cut": "exact geometry correction",
+    "tolerance_m2": 0.01
+  },
+  "weights_2000_main": {
+    "n": 845,
+    "islands": 0,
+    "symmetric_binary": true,
+    "self_Moran": 0,
+    "self_Gistar": 1,
+    "order": "eligible dataframe order; GRID_ID exported",
+    "fdr_family": "indicator x scale x method x edge scenario",
+    "seed_local": "np.random.seed((seed+scale+local_index*1009)%2147483647) per unit",
+    "seed_global": "numpy default_rng(seed+scale)"
+  },
+  "grid_2000_full": {
+    "reread": true,
+    "rows": 1190,
+    "unique_short_fields": true,
+    "crs": "EPSG:32649",
+    "numeric_roundtrip_tolerance": 1e-06
+  },
+  "grid_2000_clip": {
+    "reread": true,
+    "rows": 906,
+    "unique_short_fields": true,
+    "crs": "EPSG:32649",
+    "numeric_roundtrip_tolerance": 1e-06
+  },
+  "weights_2000_edge_0": {
+    "n": 906,
+    "islands": 0,
+    "symmetric_binary": true,
+    "self_Moran": 0,
+    "self_Gistar": 1,
+    "order": "eligible dataframe order; GRID_ID exported",
+    "fdr_family": "indicator x scale x method x edge scenario",
+    "seed_local": "np.random.seed((seed+scale+local_index*1009)%2147483647) per unit",
+    "seed_global": "numpy default_rng(seed+scale)"
+  },
+  "weights_2000_edge_0.5": {
+    "n": 817,
+    "islands": 0,
+    "symmetric_binary": true,
+    "self_Moran": 0,
+    "self_Gistar": 1,
+    "order": "eligible dataframe order; GRID_ID exported",
+    "fdr_family": "indicator x scale x method x edge scenario",
+    "seed_local": "np.random.seed((seed+scale+local_index*1009)%2147483647) per unit",
+    "seed_global": "numpy default_rng(seed+scale)"
+  },
+  "area_2000": {
+    "raster_exact_m2": 3255587235.688133,
+    "grid_m2": 3255587235.688133,
+    "polygon_m2": 3255587235.688132,
+    "max_per_grid_error_m2": 1.1175870895385742e-07,
+    "absolute_total_error_m2": 9.5367431640625e-07,
+    "boundary_grid_double_cut": "exact geometry correction",
+    "tolerance_m2": 0.01
+  }
+}
