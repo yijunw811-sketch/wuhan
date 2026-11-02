@@ -1,0 +1,16 @@
+{
+  "map_pairs": 19,
+  "all_maps_reviewed_via_contact_sheets": true,
+  "full_resolution_detail_check": "blue h1000 edge corrected",
+  "checked": [
+    "Chinese text",
+    "legend/units",
+    "bandwidth labels",
+    "raw/corrected note",
+    "scope/aspect",
+    "scale/north arrow",
+    "year/source notes"
+  ],
+  "no_visible_layout_defects": true,
+  "ArcMap_open_test": "NOT RUN"
+}

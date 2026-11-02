@@ -1,5 +1,13 @@
 # 武汉地区蓝绿空间研究成果
 
+## 更新：蓝色、绿色及蓝绿整体核密度图
+
+按最新要求已新增面积加权四次核KDE，主搜索半径1km，补充500m和2km，主图采用边缘校正；单位ha/km²，原15m分类参与核计算，输出90m密度面。**此前网格面积占比保留为另一种指标，不改称核密度。**
+
+**[下载核密度专用成果包](kde/wuhan_kde_results.zip)** · [核密度主图、方法与预览](kde/README.md)
+
+KDE仅描述分布集聚，不继承原网格Moran/LISA/Gi*的显著性。包内含可在ArcMap10.5直接加载的浮点GeoTIFF及着色显示GeoTIFF。
+
 ## 下载全部成果
 
 **[点击下载完整仓库 ZIP](https://github.com/yijunw811-sketch/wuhan/archive/refs/heads/main.zip)**

@@ -1,0 +1,59 @@
+{
+  "input_classification": "../../wuhan_research/data/classification.tif",
+  "output_root": "/workspace/wuhan_kde",
+  "groups": {
+    "blue": [
+      1,
+      5
+    ],
+    "green": [
+      3,
+      6,
+      8
+    ],
+    "wetland": [
+      4
+    ],
+    "blue_green": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      8
+    ]
+  },
+  "kernel": "quartic",
+  "bandwidth_radius_m": [
+    500,
+    1000,
+    2000
+  ],
+  "main_bandwidth_m": 1000,
+  "main_result": "edge_corrected",
+  "raw_truncated_result": true,
+  "input_mass": "classified pixel area in hectares",
+  "output_unit": "ha/km2",
+  "row_block_size": 384,
+  "nodata": -9999,
+  "density_breaks_ha_per_km2": [
+    0,
+    10,
+    25,
+    50,
+    75,
+    100
+  ],
+  "map_dpi": 300,
+  "map_inches": [
+    16.535,
+    11.693
+  ],
+  "data_year": "待补充",
+  "range_note": "分析范围为输入影像覆盖区",
+  "seed": "Not applicable: deterministic KDE",
+  "note": "KDE bandwidth is a search radius, not a grid size or classification accuracy; no patch-centroid counting; previous grid statistics retained",
+  "input_cell_size_m": 15,
+  "output_cell_size_m": 90,
+  "output_aggregation": "Exact 6x6 area mean of 15m computed KDE surface; original bounds preserved"
+}

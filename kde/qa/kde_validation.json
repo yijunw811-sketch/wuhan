@@ -1,0 +1,601 @@
+{
+  "small_cases": {
+    "unit_discrete_kernel_integral": "PASS",
+    "full_plane_mass_conservation": "PASS",
+    "FFT_vs_direct_convolution": "PASS",
+    "halo_stripes_vs_whole": "PASS",
+    "constant_field_edge_correction": "PASS"
+  },
+  "input": {
+    "sha256": "44be533643d0814077c1b61efc080740d01b62130081c07fcc39a5962e58036b",
+    "bounds": [
+      782722.5,
+      3352507.5,
+      851842.5,
+      3419917.5
+    ],
+    "crs": "EPSG:32649",
+    "source_resolution_m": 15.0,
+    "output_resolution_m": 90,
+    "pixel_counts": {
+      "blue": 3005394,
+      "green": 9505932,
+      "wetland": 222480,
+      "blue_green": 12733806
+    },
+    "no_reclassification": true
+  },
+  "500": {
+    "kernel_sum": 1.0,
+    "kernel_radius_pixels": 34,
+    "kernel_support_m": 500,
+    "exposure_min": 0.26549371572105507,
+    "linear_union_max_error_ha_per_km2": 1.4599432773820809e-13,
+    "cropped_raw_mass_ha": {
+      "blue": 67341.18250503726,
+      "green": 212805.5987101056,
+      "wetland": 4997.732954848535,
+      "blue_green": 285144.51416999137
+    },
+    "cropped_raw_expected_ha_from_exposure": {
+      "blue": 67341.18250503726,
+      "green": 212805.5987101056,
+      "wetland": 4997.732954848536,
+      "blue_green": 285144.51416999137
+    },
+    "original_target_area_ha": {
+      "blue": 67621.36499999999,
+      "green": 213883.47,
+      "wetland": 5005.8,
+      "blue_green": 286510.635
+    },
+    "edge_corrected_mass_conservation": "NOT CLAIMED: edge correction changes the integrated intensity",
+    "kernel_integral_note": "Finite 15m quadrature normalized to integral 1; output is 90m area mean",
+    "float32_90m_union_max_error": {
+      "raw": 8.58306884765625e-06,
+      "edge_corrected": 8.58306884765625e-06
+    },
+    "90m_raw_integral_matches_15m_integral": "PASS; max(0.001 ha, 1e-7 relative)"
+  },
+  "1000": {
+    "kernel_sum": 1.0,
+    "kernel_radius_pixels": 67,
+    "kernel_support_m": 1000,
+    "exposure_min": 0.2576931544533969,
+    "linear_union_max_error_ha_per_km2": 1.4033219031261979e-13,
+    "cropped_raw_mass_ha": {
+      "blue": 67085.89611746812,
+      "green": 211678.4407740954,
+      "wetland": 4991.044954724997,
+      "blue_green": 283755.38184628845
+    },
+    "cropped_raw_expected_ha_from_exposure": {
+      "blue": 67085.89611746812,
+      "green": 211678.4407740954,
+      "wetland": 4991.044954724999,
+      "blue_green": 283755.3818462885
+    },
+    "original_target_area_ha": {
+      "blue": 67621.36499999999,
+      "green": 213883.47,
+      "wetland": 5005.8,
+      "blue_green": 286510.635
+    },
+    "edge_corrected_mass_conservation": "NOT CLAIMED: edge correction changes the integrated intensity",
+    "kernel_integral_note": "Finite 15m quadrature normalized to integral 1; output is 90m area mean",
+    "float32_90m_union_max_error": {
+      "raw": 8.58306884765625e-06,
+      "edge_corrected": 8.58306884765625e-06
+    },
+    "90m_raw_integral_matches_15m_integral": "PASS; max(0.001 ha, 1e-7 relative)"
+  },
+  "2000": {
+    "kernel_sum": 1.0,
+    "kernel_radius_pixels": 134,
+    "kernel_support_m": 2000,
+    "exposure_min": 0.2538331472194435,
+    "linear_union_max_error_ha_per_km2": 1.4042219264546324e-13,
+    "cropped_raw_mass_ha": {
+      "blue": 66606.19690801915,
+      "green": 209356.71651625875,
+      "wetland": 4971.929541346093,
+      "blue_green": 280934.842965624
+    },
+    "cropped_raw_expected_ha_from_exposure": {
+      "blue": 66606.19690801913,
+      "green": 209356.71651625878,
+      "wetland": 4971.929541346091,
+      "blue_green": 280934.84296562395
+    },
+    "original_target_area_ha": {
+      "blue": 67621.36499999999,
+      "green": 213883.47,
+      "wetland": 5005.8,
+      "blue_green": 286510.635
+    },
+    "edge_corrected_mass_conservation": "NOT CLAIMED: edge correction changes the integrated intensity",
+    "kernel_integral_note": "Finite 15m quadrature normalized to integral 1; output is 90m area mean",
+    "float32_90m_union_max_error": {
+      "raw": 8.423347026109695e-06,
+      "edge_corrected": 8.423347026109695e-06
+    },
+    "90m_raw_integral_matches_15m_integral": "PASS; max(0.001 ha, 1e-7 relative)"
+  },
+  "output_readback": {
+    "kde_green_h500_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kernel_exposure_h2000.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_green_h2000_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kernel_exposure_h500.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_wetland_h1000_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_green_h1000_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_h2000_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_wetland_h500_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_green_h1000_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_green_h2000_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_green_h2000_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_green_h500_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kernel_exposure_h1000.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_wetland_h2000_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_h1000_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_green_h500_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_green_h500_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_h1000_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_h2000_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_green_h1000_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_wetland_h2000_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_green_h2000_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_h500_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_green_h1000_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_wetland_h500_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_wetland_h1000_raw.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    },
+    "kde_blue_h500_edge_corrected.tif": {
+      "shape": [
+        749,
+        768
+      ],
+      "bounds": [
+        782722.5,
+        3352507.5,
+        851842.5,
+        3419917.5
+      ],
+      "crs": "EPSG:32649",
+      "full_read": "PASS"
+    }
+  },
+  "map_checks": [
+    {
+      "file": "KDE_blue_green_h1000_edge_corrected",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_blue_green_h1000_raw",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_blue_green_h2000_edge_corrected",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_blue_green_h2000_raw",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_blue_green_h500_edge_corrected",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_blue_green_h500_raw",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_blue_h1000_edge_corrected",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_blue_h1000_raw",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_blue_h2000_edge_corrected",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_blue_h2000_raw",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_blue_h500_edge_corrected",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_blue_h500_raw",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_green_h1000_edge_corrected",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_green_h1000_raw",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_green_h2000_edge_corrected",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_green_h2000_raw",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_green_h500_edge_corrected",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_green_h500_raw",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    },
+    {
+      "file": "KDE_搜索半径敏感性比较",
+      "PNG_A3_300DPI": "PASS",
+      "PDF_parse_render": "PASS"
+    }
+  ]
+}
